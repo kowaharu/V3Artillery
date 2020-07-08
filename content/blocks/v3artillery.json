@@ -1,0 +1,34 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "V3 Artillery",
+	"description": "Powerful long range artillery",
+	"health": 1000,
+	"size": 3,
+	"reload": 180,
+	"range": 1344,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 0,
+	"shots": 1,
+	"rotatespeed": 1,
+	"targetAir": false,
+	"shootSound": "artillery",
+	"ammo": {
+		"lead": {
+			"type": "ArtilleryBulletType",
+			"speed": 12,
+			"damage": 300,
+			"bulletWidth": 16,
+			"bulletHeight": 35,
+			"shootEffect": "blastsmoke",
+			"ammoMultiplier": 1,
+			"collides": true,
+				}
+			}	
+	"requirements": [
+				"lead/500"
+				"copper/300"
+				"titanium/100"
+					],
+	"category": "turret",
+	"research": "scatter",
+}
